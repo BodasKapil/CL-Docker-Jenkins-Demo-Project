@@ -6,5 +6,5 @@ services:
     command: sh -c "uvicorn main:app --reload --port=8000 --host=127.0.0.1"
     ports:
       - 8000:8000
-    volumes:
-      - .:/app
+    # volumes:
+    #   - .:/app
