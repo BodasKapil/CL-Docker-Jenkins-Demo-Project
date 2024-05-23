@@ -37,7 +37,7 @@ students={
 
 @app.get("/")
 def demo():
-    return {"Name": "First FASTAPI app"}
+    return {"Name": "Hi"}
 
 
 @app.get("/students")
