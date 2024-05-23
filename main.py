@@ -37,7 +37,7 @@ students={
 
 @app.get("/")
 def demo():
-    return {"Name": "Hi"}
+    return {"Name": "Hello World"}
 
 
 @app.get("/students")
